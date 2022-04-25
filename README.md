@@ -7,7 +7,7 @@ sudo apt install chromium-browser
 ~~~
 พิมพ์คำสั่งเพื่อดาวน์โหลดไฟล์ Jasper Report
 ~~~
-$ wget https://sourceforge.net/projects/jasperserver/files/JasperServer/JasperReports%20Server%20Community%20edition%208.0.0/TIB_js-jrs-cp_8.0.0_linux_x86_64.run
+wget https://sourceforge.net/projects/jasperserver/files/JasperServer/JasperReports%20Server%20Community%20edition%208.0.0/TIB_js-jrs-cp_8.0.0_linux_x86_64.run
 ~~~
 รอจนเสร็จสิ้น จะแสดง
 ~~~

@@ -23,7 +23,6 @@ chmod a+x TIB_js-jrs-cp_8.0.0_linux_x86_64.run
 sudo ./TIB_js-jrs-cp_8.0.0_linux_x86_64.run
 ~~~
 โปรแกรมจะทำการข้อกำหนดการใช้งาน License สำหรับใช้งานบนเครื่อง Server ทำการกด Enter ไปเรื่อยๆ เพื่อยืนยัน
-~~~
 ทำการพิมพ์ y เพื่อยืนยันการใช้ license
 ~~~
 Do you accept this license? [y/N]: y  

@@ -83,3 +83,4 @@ Using CATALINA_PID:    /opt/jasperreports-server-cp-8.0.0/apache-tomcat/temp/cat
 Tomcat started.
 /opt/jasperreports-server-cp-8.0.0/apache-tomcat/scripts/ctl.sh : tomcat started
 ~~~
+##เสร็จสิ้นการติดตั้ง

@@ -1,5 +1,6 @@
 # Jasper-Report-install
 ## ขั้นตอนการดาวน์โหลดและติดตั้งและ Jasper Report
+Jasper Report จำเป็นต้องติดตั้ง Java JDK , Tomcat และ Google Chrome หรือ Chromium บนเครื่องก่อน
 
 พิมพ์คำสั่งเพื่อติดตั้ง chromium เพื่อใช้งานร่วมกับ Jasper Report
 ~~~
@@ -22,8 +23,8 @@ chmod a+x TIB_js-jrs-cp_8.0.0_linux_x86_64.run
 ~~~
 sudo ./TIB_js-jrs-cp_8.0.0_linux_x86_64.run
 ~~~
-โปรแกรมจะถามข้อกำหนดการใช้งาน License สำหรับใช้งานบนเครื่อง Server กด Enter ไปเรื่อยๆ เพื่อยืนยัน
-พิมพ์ y เพื่อยืนยันการใช้ license
+โปรแกรมจะถามข้อกำหนดการใช้งาน License บนเครื่อง Server กด Enter ไปเรื่อยๆ เพื่อยืนยัน
+จนโปรแกรมแสดง ข้อความความเพื่อยืนยันการใช้ license กด Y เพื่อยืนยัน
 ~~~
 Do you accept this license? [y/N]: y  
 ~~~
@@ -35,7 +36,7 @@ Please choose an install option below:
 [2] Custom Install
 Please choose an option [1] : 1     
 ~~~
-โปรแกรมจะให้เลือกโฟลเดอร์ที่ทำการติดตั้ง tomcat อยู่ กด enter
+โปรแกรมจะให้เลือก Path file ที่จะทำการติดตั้ง กด enter เพื่อยืนยัน
 ~~~
 Installation folder
 Please, choose a folder to install JasperReports Server CP 8.0.0
@@ -64,7 +65,7 @@ available at http://community.jaspersoft.com/documentation
 ----------------------------------------------------------------------------
 Setup has finished installing JasperReports Server CP 8.0.0 on your computer.
 ~~~
-พิมพ์คำสั่งเพื่อเปิด Jasper Report
+พิมพ์คำสั่งเพื่อเปิดใช้งาน Jasper Report
 ~~~
 sudo /opt/jasperreports-server-cp-8.0.0/ctlscript.sh start
 ~~~

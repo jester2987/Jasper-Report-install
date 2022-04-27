@@ -22,8 +22,8 @@ chmod a+x TIB_js-jrs-cp_8.0.0_linux_x86_64.run
 ~~~
 sudo ./TIB_js-jrs-cp_8.0.0_linux_x86_64.run
 ~~~
-โปรแกรมจะทำการข้อกำหนดการใช้งาน License สำหรับใช้งานบนเครื่อง Server ทำการกด Enter ไปเรื่อยๆ เพื่อยืนยัน
-ทำการพิมพ์ y เพื่อยืนยันการใช้ license
+โปรแกรมจะถามข้อกำหนดการใช้งาน License สำหรับใช้งานบนเครื่อง Server กด Enter ไปเรื่อยๆ เพื่อยืนยัน
+พิมพ์ y เพื่อยืนยันการใช้ license
 ~~~
 Do you accept this license? [y/N]: y  
 ~~~
@@ -35,7 +35,7 @@ Please choose an install option below:
 [2] Custom Install
 Please choose an option [1] : 1     
 ~~~
-โปรแกรมจะไห้เลือกโฟลเดอร์ที่ทำการติดตั้ง tomcat อยู่ กด enter
+โปรแกรมจะให้เลือกโฟลเดอร์ที่ทำการติดตั้ง tomcat อยู่ กด enter
 ~~~
 Installation folder
 Please, choose a folder to install JasperReports Server CP 8.0.0
@@ -49,13 +49,13 @@ Click Next to acknowledge this warning and continue with the installation.
 Press [Enter] to continue:
 https://community.jaspersoft.com/wiki/keystore-management-and-repair/ [Y/n]: Y
 ~~~
-โปรแกรมจะไห้กด Y เพื่อทำการติดตั้งโปรแกรม
+โปรแกรมจะให้กด Y เพื่อทำการติดตั้งโปรแกรม
 ~~~
 Setup is now ready to begin installing JasperReports Server CP 8.0.0 on your
 computer.
 Do you want to continue? [Y/n]: Y
 ~~~
-รอขนเสร็จจะแสดง 
+รอจนเสร็จจะแสดง 
 ~~~
 Completing the JasperReports Server CP 8.0.0 Setup Wizard
 For release notes and further documentation please see,
